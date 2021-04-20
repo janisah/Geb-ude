@@ -2,8 +2,8 @@
 /**
  * Beschreiben Sie hier die Klasse Dorf.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Leon
+ * @version 1.0
  */
 public class Dorf
 {
