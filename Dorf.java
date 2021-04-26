@@ -1,6 +1,8 @@
 
 /**
  * Beschreiben Sie hier die Klasse Dorf.
+ * Vorteile Vererbung: Mehrere verschiedene Objekte in einem Array
+ * Vorteile Objektorientierung: übersichtlicher durch Vererbung
  * 
  * @author Leon
  * @version 1.0
