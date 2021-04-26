@@ -20,15 +20,37 @@ public class Dorf
         dorfgebaeude[6] = new Kathedrale(216, 136);
     }
     
+    public void ersteVeränderung()
+    {
+        gebaeudeHinzufuegen(new Einfamilienhaus(2, 1, 6));
+        gebaeudeHinzufuegen(new Dom(163, 500));
+    }
+    
     public int besucher()
     {
         int summe = 0;
-        
         for(int i=0;i < dorfgebaeude.length;i++)
         {
             summe = summe + dorfgebaeude[i].anzahlBesucher();
         }
-        
         return summe;
+    }
+    
+    public void gebaeudeHinzufuegen(Gebaeude pGebaeude)
+    {
+        Gebaeude[] dorfgebaeudeNeu = new Gebaeude[dorfgebaeude.length+1];
+        for(int i = 0; i<dorfgebaeude.length; i++)
+        {
+            dorfgebaeudeNeu[i]=dorfgebaeude[i];
+        }
+        dorfgebaeudeNeu[dorfgebaeudeNeu.length-1]=pGebaeude;
+        dorfgebaeude = dorfgebaeudeNeu;
+    }
+    
+    public void zweiteVeränderung()
+    {
+        gebaeudeHinzufuegen(new Hochhaus(3, 17, 10));
+        gebaeudeHinzufuegen(new Hochhaus(2, 12, 9));
+        gebaeudeHinzufuegen(new Kathedrale(279, 124));
     }
 }
