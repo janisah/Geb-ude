@@ -18,6 +18,6 @@ public class Gebaeude
     
     public int anzahlBesucher() {
         return besucher;
-    }//T
+    }
     
 }

@@ -1,14 +1,8 @@
 
-/**
- * Beschreiben Sie hier die Klasse Einfamilienhaus.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
- */
 public class Einfamilienhaus extends Haus
 {
     
-    public Einfamilienhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucher )
+    public Einfamilienhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucher, String pEigentuemer)
     {
         super(pHoeheProStockwerk, pStockwerke, pBesucher);
     }

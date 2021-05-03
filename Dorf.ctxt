@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Dorf
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Dorf.\r\n\ Vorteile\ Vererbung\:\ Mehrere\ verschiedene\ Objekte\ in\ einem\ Array\r\n\ Vorteile\ Objektorientierung\:\ \u00FCbersichtlicher\ durch\ Vererbung\r\n\ \r\n\ @author\ Leon\r\n\ @version\ 1.0\r\n
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Dorf.\r\n\ Vorteile\ Vererbung\:\ Mehrere\ verschiedene\ Objekte\ in\ einem\ Array\r\n\ Vorteile\ Objektorientierung\:\ \u00FCbersichtlicher\ durch\ Vererbung\r\n\ \r\n\ @author\ Janis\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=Dorf()
 comment2.params=
