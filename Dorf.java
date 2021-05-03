@@ -13,18 +13,18 @@ public class Dorf
     
     public Dorf()
     {
-        dorfgebaeude[0] = new Einfamilienhaus(3,5, 5, Müller);
-        dorfgebaeude[1] = new Einfamilienhaus(5,2, 10, Franz);
-        dorfgebaeude[2] = new Einfamilienhaus(4,1, 13, Janis);
-        dorfgebaeude[3] = new Einfamilienhaus(2.5,4, 4, Bob);
-        dorfgebaeude[4] = new Einfamilienhaus(5,3, 10, Janis);
-        dorfgebaeude[5] = new Einfamilienhaus(4.5, 2, 10, Thomas);
+        dorfgebaeude[0] = new Einfamilienhaus(3,5, 5, "Müller", "Einfamilienhaus");
+        dorfgebaeude[1] = new Einfamilienhaus(5,2, 10, "Franz");
+        dorfgebaeude[2] = new Einfamilienhaus(4,1, 13, "Janis");
+        dorfgebaeude[3] = new Einfamilienhaus(2.5,4, 4, "Bob");
+        dorfgebaeude[4] = new Einfamilienhaus(5,3, 10, "Janis");
+        dorfgebaeude[5] = new Einfamilienhaus(4.5, 2, 10, "Thomas");
         dorfgebaeude[6] = new Kathedrale(216, 136);
     }
     
     public void ersteVeränderung()
     {
-        gebaeudeHinzufuegen(new Einfamilienhaus(2, 1, 6, Klaus));
+        gebaeudeHinzufuegen(new Einfamilienhaus(2, 1, 6, "Klaus"));
         gebaeudeHinzufuegen(new Dom(163, 500));
     }
     
@@ -51,8 +51,8 @@ public class Dorf
     
     public void zweiteVeränderung()
     {
-        gebaeudeHinzufuegen(new Hochhaus(3, 17, 10, Janis));
-        gebaeudeHinzufuegen(new Hochhaus(2, 12, 9, Simon));
+        gebaeudeHinzufuegen(new Hochhaus(3, 17, 10, "Janis","Hochhaus"));
+        gebaeudeHinzufuegen(new Hochhaus(2, 12, 9, "Simon","Haus"));
         gebaeudeHinzufuegen(new Kathedrale(279, 124));
     }
 }
