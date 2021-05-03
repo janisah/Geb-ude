@@ -5,7 +5,7 @@ public class Gebaeude
     
     protected int besucher;
     
-    public Gebaeude( double pHoehe, int pBesucher )
+    public Gebaeude( double pHoehe, int pBesucher)
     {
         hoehe = pHoehe;
         besucher = pBesucher;

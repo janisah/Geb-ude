@@ -3,7 +3,7 @@ public class Haus extends Gebaeude
 {
     protected int stockwerke;
     
-    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher)
+    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher, String pEigentuemer)
     {
         super(pHoeheProStockwerk, pBesucher);
         stockwerke = pStockwerke;
