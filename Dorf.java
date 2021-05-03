@@ -51,8 +51,8 @@ public class Dorf
     
     public void zweiteVeränderung()
     {
-        gebaeudeHinzufuegen(new Hochhaus(3, 17, 10));
-        gebaeudeHinzufuegen(new Hochhaus(2, 12, 9));
+        gebaeudeHinzufuegen(new Hochhaus(3, 17, 10, Janis));
+        gebaeudeHinzufuegen(new Hochhaus(2, 12, 9, Simon));
         gebaeudeHinzufuegen(new Kathedrale(279, 124));
     }
 }
