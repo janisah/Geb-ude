@@ -4,10 +4,6 @@ public class Gebaeude
     protected double hoehe;
     
     protected int besucher;
-    
-    protected Eigentuemer eigentuemer;
-    
-    protected String gebaeudeArt;
 
     public Gebaeude( double pHoehe, int pBesucher)
     {

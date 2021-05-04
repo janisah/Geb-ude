@@ -4,4 +4,6 @@ comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher
 comment1.target=Haus(double,\ int,\ int)
 comment2.params=
 comment2.target=double\ getHoehe()
-numComments=3
+comment3.params=
+comment3.target=void\ eigentuemer()
+numComments=4

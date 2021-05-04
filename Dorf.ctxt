@@ -11,4 +11,6 @@ comment4.params=pGebaeude
 comment4.target=void\ gebaeudeHinzufuegen(Gebaeude)
 comment5.params=
 comment5.target=void\ zweiteVer\u00E4nderung()
-numComments=6
+comment6.params=
+comment6.target=void\ besitzerUndGebaeudeArt()
+numComments=7
