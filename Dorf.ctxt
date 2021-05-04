@@ -12,5 +12,5 @@ comment4.target=void\ gebaeudeHinzufuegen(Gebaeude)
 comment5.params=
 comment5.target=void\ zweiteVer\u00E4nderung()
 comment6.params=
-comment6.target=void\ besitzerUndGebaeudeArt()
+comment6.target=void\ gebauedeArtAnzeigen()
 numComments=7

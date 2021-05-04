@@ -14,4 +14,8 @@ public class Hochhaus extends Haus
         return stockwerke * besucher;
     }
     
+    public String getGebaeudeArt()
+    {
+        return "Hochhaus";
+    }
 }

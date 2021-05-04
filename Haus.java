@@ -23,4 +23,6 @@ public class Haus extends Gebaeude
     {
          eigentuemer.getEigentuemer();
     }
+    
+    
 }

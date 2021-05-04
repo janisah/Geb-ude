@@ -4,4 +4,6 @@ comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucherProStockwerk\ pEigentu
 comment1.target=Hochhaus(double,\ int,\ int,\ java.lang.String)
 comment2.params=
 comment2.target=int\ anzahlBesucher()
-numComments=3
+comment3.params=
+comment3.target=java.lang.String\ getGebaeudeArt()
+numComments=4

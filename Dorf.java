@@ -55,12 +55,12 @@ public class Dorf
         gebaeudeHinzufuegen(new Hochhaus(2, 12, 9, "Sinaj"));
         gebaeudeHinzufuegen(new Kathedrale(279, 124));
     }
-    
-    public void besitzerUndGebaeudeArt()
+     
+    public void gebauedeArtAnzeigen()
     {
         for(int i=0;i < dorfgebaeude.length;i++)
             {
-            System.out.println("f");
+            System.out.println();
             }
     }
 }
