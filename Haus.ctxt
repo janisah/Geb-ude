@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Haus
-comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher\ pEigentuemer
-comment1.target=Haus(double,\ int,\ int,\ java.lang.String)
+comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher
+comment1.target=Haus(double,\ int,\ int)
 comment2.params=
 comment2.target=double\ getHoehe()
 numComments=3
