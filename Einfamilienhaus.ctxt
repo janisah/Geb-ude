@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Einfamilienhaus
-comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher
-comment1.target=Einfamilienhaus(double,\ int,\ int)
+comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher\ pEigentuemer
+comment1.target=Einfamilienhaus(double,\ int,\ int,\ java.lang.String)
 numComments=2

@@ -4,4 +4,6 @@ comment1.params=
 comment1.target=Eigentuemer()
 comment2.params=
 comment2.target=java.lang.String\ getEigentuemer()
-numComments=3
+comment3.params=pname
+comment3.target=void\ setName(java.lang.String)
+numComments=4

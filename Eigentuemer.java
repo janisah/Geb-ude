@@ -12,4 +12,9 @@ public class Eigentuemer
     {
         return name;
     }
+    
+    public void setName(String pname)
+    {
+        name = pname;
+    }
 }

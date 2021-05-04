@@ -7,11 +7,12 @@ public class Haus extends Gebaeude
     
     protected String gebaeudeArt = "Haus";
 
-    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher)
+    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher, String pEigentuemer)
     {
         super(pHoeheProStockwerk, pBesucher);
         stockwerke = pStockwerke;
         eigentuemer = new Eigentuemer();
+        eigentuemer.setName(pEigentuemer);
     }
     
     public double getHoehe() {
