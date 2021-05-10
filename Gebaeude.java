@@ -4,7 +4,9 @@ public class Gebaeude
     protected double hoehe;
     
     protected int besucher;
+    
 
+    
     public Gebaeude( double pHoehe, int pBesucher)
     {
         hoehe = pHoehe;
