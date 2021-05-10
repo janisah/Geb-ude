@@ -59,8 +59,8 @@ public class Dorf
     public void gebauedeArtAnzeigen()
     {
         for(int i=0;i < dorfgebaeude.length;i++)
-            {
-            System.out.println();
-            }
+        {
+            System.out.println(dorfgebaeude[i].Hochhaus.getGebaeudeArt());
+        }
     }
 }

@@ -22,4 +22,8 @@ public class Gebaeude
         return besucher;
     }
     
+    public void getGebaeudeArt()
+    {
+        //Hochhaus.getGebaeudeArt();
+    }
 }
