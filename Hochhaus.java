@@ -17,6 +17,6 @@ public class Hochhaus extends Haus
     
     public String getGebaeudeArt()
     {
-        return "Hochhaus";
+        return gebaeudeArt;
     }
 }
