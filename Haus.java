@@ -8,14 +8,14 @@ public class Haus extends Gebaeude
     String sEigentuemer;
     protected String gebaeudeArt;
 
-    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher, String pEigentuemer)
+    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher, String pEigentuemer, String pGebaeudeArt)
     {
         super(pHoeheProStockwerk, pBesucher);
         stockwerke = pStockwerke;
          sEigentuemer = pEigentuemer;
         eigentuemer = new Eigentuemer();
         eigentuemer.setName(pEigentuemer);
-        
+        gebaeudeArt = pGebaeudeArt;
     }
     
     public double getHoehe() {
@@ -32,5 +32,5 @@ public class Haus extends Gebaeude
          eigentuemer.setName(sEigentuemer);
     }
     
-
+  
 }

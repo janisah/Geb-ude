@@ -2,7 +2,7 @@
 public class Kirche extends Gebaeude
 {
     
-    public Kirche(double pHoehe, int pBesucher)
+    public Kirche(double pHoehe, int pBesucher )
     {
         super(pHoehe, pBesucher);
     }

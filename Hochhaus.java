@@ -2,12 +2,13 @@
 public class Hochhaus extends Haus
 {
     protected int stockwerke;
-    String gebaeudeArt = "Hochhaus";
+    public String pGebaeudeArt = "Hochhaus";
     
     
-    public Hochhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucherProStockwerk, String pEigentuemer)
+    public Hochhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucherProStockwerk, String pEigentuemer,String pGebaeudeArt)
     {
-        super(pHoeheProStockwerk, pStockwerke, pBesucherProStockwerk, pEigentuemer);
+        
+        super(pHoeheProStockwerk, pStockwerke, pBesucherProStockwerk, pEigentuemer, pGebaeudeArt);
         
     }
     

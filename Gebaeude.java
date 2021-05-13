@@ -5,12 +5,13 @@ public class Gebaeude
     
     protected int besucher;
     
-
+    public String gebaeudeArt;
     
-    public Gebaeude( double pHoehe, int pBesucher)
+    public Gebaeude( double pHoehe, int pBesucher )
     {
         hoehe = pHoehe;
         besucher = pBesucher;
+        
     }
 
     public double getHoehe()
@@ -22,5 +23,8 @@ public class Gebaeude
         return besucher;
     }
     
-   
+    public String getGebaeudeArt()
+    {
+        return gebaeudeArt;
+    }
 }
