@@ -2,4 +2,6 @@
 comment0.target=Einfamilienhaus
 comment1.params=pHoeheProStockwerk\ pStockwerke\ pBesucher\ pEigentuemer
 comment1.target=Einfamilienhaus(double,\ int,\ int,\ java.lang.String)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getGebaeudeArt()
+numComments=3

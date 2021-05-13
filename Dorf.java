@@ -60,7 +60,7 @@ public class Dorf
     {
         for(int i=0;i < dorfgebaeude.length;i++)
         {
-            System.out.println(dorfgebaeude[i].getGebaeudeArt());
+            System.out.println();
         }
     }
 }
